@@ -1,0 +1,32 @@
+name: generate-snake
+
+on:
+  schedule:
+    # 每天 UTC 0 点自动更新一次
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # 生成贪吃蛇 SVG（亮色 + 暗色两版，蓝紫主题）
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: lenkaset
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#7c7cf0&color_dots=#c8d3f5,#9aa5ce,#6f7dba,#4a5578,#2f3a5e
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#8b8bf5&color_dots=#1a1b2e,#2d2d44,#3d3d5c,#565680,#7c7cf0
+
+      # 把生成的 SVG 发布到 output 分支
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
