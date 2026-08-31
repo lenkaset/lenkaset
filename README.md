@@ -33,7 +33,7 @@ superpower: 把复杂的问题拆得干净利落 🧩
 
 ![图形/后端/AI](https://skillicons.dev/icons?i=threejs,wasm,rust,go,py,cs,dotnet,docker,pytorch,tensorflow,vscode,linux&perline=10&theme=dark)
 
----
+<!-- ---
 
 ## 📊 GitHub Stats
 
@@ -41,21 +41,21 @@ superpower: 把复杂的问题拆得干净利落 🧩
 [![streak stats](https://streak-stats.demolab.com/?user=lenkaset&hide_border=true&background=1A1B2E&ring=7C7CF0&fire=F4A261&currStreakLabel=E8E9FF&currStreakNum=F4A261&sideNums=F4A261&sideLabels=C9CBE8&dates=8B8FB0)](https://github.com/denvercoder1/github-readme-streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lenkaset&layout=compact&theme=nightowl&hide_border=true&bg_color=0,2b2a4a,16161e&title_color=ffffff&text_color=c9cbe8)](https://github.com/anuraghazra/github-readme-stats)
 
----
+--- -->
 
-## 🏆 成就墙
+<!-- ## 🏆 成就墙
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=lenkaset&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
 
----
+--- -->
 
-## 🐍 贡献贪吃蛇
+<!-- ## 🐍 贡献贪吃蛇
 
 ![snake](https://raw.githubusercontent.com/lenkaset/lenkaset/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 ![snake](https://raw.githubusercontent.com/lenkaset/lenkaset/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
----
+--- -->
 
 ## 🛠️ 正在做的事
 
